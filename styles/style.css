@@ -1,0 +1,105 @@
+/* Common style to this project */
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.btn-primary {
+    background-color: #FF5959;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+/* Header Style */
+
+.header-background {
+    background-image: url(../images/donation3.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    width: 1260px;
+    height: 600px;
+    color: cornsilk;
+    text-align: center;
+}
+
+.header-title {
+    padding: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.header-item {
+    font-size: 70px;
+
+}
+
+.header-description {
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* Donate Today section */
+.donate-section {
+    margin: 0 100px;
+    padding: 70px 100px;
+    text-align: center;
+}
+
+.donate-section div {
+    align-items: center;
+}
+
+.donate-title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.donate-description {
+    color: #707070;
+    font-size: 18px;
+    margin: 5px 150px;
+}
+
+.donate-amount {
+    display: flex;
+    justify-content: center;
+    margin: 5px 150px;
+
+}
+
+.donate-amount h1 {
+    margin-left: 20px;
+    color: #707070;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 25px 20px;
+    margin-bottom: 70px;
+}
+
+.highlight-amount {
+    border: solid 2px #FF5959;
+    background: #FFEEEE;
+    border-radius: 5px;
+    padding: 25px 20px;
+
+}
+
+.center {
+    text-align: center;
+}
+
+.other-amount {
+    margin-bottom: 50px;
+    color: #B3B3B3;
+    font-size: 18px;
+}
+
+/* Our Donate Plan */
