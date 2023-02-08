@@ -103,3 +103,79 @@
 }
 
 /* Our Donate Plan */
+.plan-title {
+    text-align: center;
+    margin: 30px 100px;
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.plan-description {
+    text-align: center;
+    color: #707070;
+    margin: 10px;
+    padding: 10px 200px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.our-plan>div {
+    display: flex;
+    margin: 20px 50px;
+}
+
+#background-1 {
+    height: 300px;
+    width: 445px;
+    margin-left: 30px;
+    border-radius: 5px;
+    background-color: #cae6ea;
+}
+
+#background-2 {
+    height: 300px;
+    width: 445px;
+    margin-left: 30px;
+    border-radius: 5px;
+    background-color: #ebd5d5;
+}
+
+#background-3 {
+    height: 300px;
+    width: 445px;
+    margin-left: 30px;
+    border-radius: 5px;
+    background-color: #f0b3b3;
+}
+
+.help-container {
+    padding: 30px 100px;
+}
+
+#background-1 img {
+    padding: 10px;
+}
+
+#background-2 img {
+    padding: 10px;
+}
+
+#background-3 img {
+    padding: 10px;
+}
+
+.our-plan-title {
+    font-size: 25px;
+    font-weight: 600;
+    color: #121212;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.our-plan-description {
+    font-size: 14px;
+    font-family: 400;
+    padding: 10px;
+}
