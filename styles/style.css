@@ -179,3 +179,105 @@
     font-family: 400;
     padding: 10px;
 }
+
+/* help container style  */
+.flexible-container {
+    display: flex;
+    padding: 80px 0;
+}
+
+.half-width {
+    text-align: center;
+    padding: 5px 80px 0px 80px;
+    height: 500px;
+    width: 500px;
+}
+
+.half-width img {
+
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.help-title {
+    color: #121212;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 45px 0px 0px 0px;
+}
+
+.help-description {
+    color: #707070;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 25px 0 30px 0px;
+}
+
+.btn-left {
+    justify-content: right;
+}
+
+/* Update Section Style */
+.update-title {
+    text-align: center;
+    color: #121212;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 40px;
+}
+
+.update-description {
+    text-align: center;
+    color: #707070;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 20px 300px;
+}
+
+.subscribe-background {
+    text-align: center;
+    margin: 80px 100px;
+    padding: 75px 100px;
+    background-color: #FFF4D6;
+    border-radius: 10px;
+}
+
+.input-field {
+    position: relative;
+    border: none;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+
+}
+
+.btn-subscribe {
+    position: absolute;
+    border: none;
+    color: #FFFFFF;
+    background-color: #FF5959;
+    padding: 10px 20px;
+}
+
+/* Footer Style */
+
+footer {
+    background-color: #0B0D17;
+    height: 200px;
+}
+
+.footer-title {
+    text-align: center;
+    color: #FF5959;
+    font-size: 26px;
+    font-weight: 400;
+    padding-top: 60px;
+}
+
+.footer-description {
+    text-align: center;
+    color: #D9DBE1;
+    font-size: 9px;
+    font-weight: 400;
+    padding-top: 20px;
+}
